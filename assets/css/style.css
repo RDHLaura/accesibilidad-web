@@ -7,7 +7,7 @@
     background: #E8F8F5;
 }
 .bg-verde-oscuro{
-    background: #48C9B0;
+    background: #266759;
 }
 
 
@@ -15,17 +15,17 @@
     color: #E8F8F5;
 }
 .font-verde-oscuro{
-    color: #48C9B0;
+    color: #266759;
 }
 a{
-    color: #48C9B0 ;
+    color: #266759 ;
 }
 a:hover{
     color: #6c757d ;
 }
 
 h3{
-    color: #48C9B0 ;
+    color: #266759 ;
 }
 
 main img{
@@ -184,9 +184,9 @@ main{
 }
 
 .donar-cabecera h1,
-.detalle-cabecera  h1{
+.detalle-cabecera  h1, h2{
     color: #fff;
-    background: #48C9B0;
+    background: #266759;
 }
 
 .detalle-cabecera  h2, .detalle-cabecera span{
@@ -257,7 +257,7 @@ footer.container-fluid{
 .creditos{
     background: #5A6268;
     margin-top: 30px;
-    font-size: 0.65rem;
+    font-size: 1rem;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -267,7 +267,8 @@ footer.container-fluid{
     margin: 0 auto;
 }
 .creditos a{
-    color: #48C9B0 ;
+    color: #E8F8F5 ;
+    text-decoration: underline;
 }
 .creditos a:hover{
     color: #007bff ;

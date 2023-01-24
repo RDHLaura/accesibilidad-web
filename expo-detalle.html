@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <title>Exposiciones · La Galería Ecléctica</title>
@@ -19,11 +19,10 @@
                     <a href="#">EN</a>
                 </div>
             </div>
-            <a href="index.html">
-                <img src="assets/img/logo.png" />
-            </a>
+            <a href="index.html"><img src="assets/img/logo.png" alt="logo LAGaEC"/></a>
+
             <nav class="navbar navbar-expand-lg navbar-light bg-verde-claro">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-label="collapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -42,21 +41,20 @@
                     <li class="breadcrumb-item">Impresiones</li>
                 </ol>
             </nav>
-
         </header>
 
         <main class="container-fluid">
             <section class="detalle-cabecera">
                 <div class="container">
                     <h1>Impresiones</h1>
-                    <h2> Mirar a Degas: la captura del instante</h2>43
+                    <h2> Mirar a Degas: la captura del instante</h2>
                 </div>
             </section>
 
             <section id="proximas" class="actividades container">
                 <div class="fila align-izquierda">
                     <div class="tres-columnas">
-                        <h4>Del 2 de diciembre de 2018 hasta el 17 de abril de 2019</h4>
+                        <h3>Del 2 de diciembre de 2018 hasta el 17 de abril de 2019</h3>
                         <button class="btn btn-secondary">Comprar entradas</button>
                     </div>
                     <div class="dos-tres-columnas">
@@ -90,7 +88,7 @@
 
                         <table class="table table-light">
                             <tr class="bg-verde-oscuro">
-                                <th colspan="2">Obra mostrada en esta página</th>
+                                <th class="font-verde-claro" colspan="2">Obra mostrada en esta página</th>
                             </tr>
                             <tr>
                                 <th>Título</th>
@@ -122,24 +120,25 @@
                     08018 Barcelona
                 </a>
                 <div class="rrss">
-                    <a href="#"><i class="fab fa-facebook-square"></i></a>
-                    <a href="#"><i class="fab fa-twitter-square"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-youtube-square"></i></a>
+                    <a href="https://www.facebook.com/" aria-label="to facebook page"><span class="fab fa-facebook-square" ></span></a>
+                    <a href="https://twitter.com/" aria-label="to twitter page"><span class="fab fa-twitter-square" ></span></a>
+                    <a href="https://www.instagram.com/" aria-label="to instagram page"><span class="fab fa-instagram" ></span></a>
+                    <a href="https://www.youtube.com/" aria-label="to youtube page"><span class="fab fa-youtube-square" ></span></a>
                 </div>
+
                 <form>
                     <h4>Suscríbete a nuestra Newsletter</h4>
                     <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Enter email">
+                        <input type="email" class="form-control" placeholder="Enter email" aria-label="email">
                     </div>
                     <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input">
-                        <label>Acepto la <a href="#">Política de privacidad </a></label>
+                        <input id="privacy_check" type="checkbox" class="form-check-input">
+                        <label for="privacy_check" class="form-check-label">Acepto la <a href="#">Política de privacidad </a></label>
                     </div>
                     <button type="submit" class="btn btn-secondary">Registrarme</button>
                 </form>
-                <a href="index.html" class="logo">
-                    <img src="assets/img/logo.png"/>
+                <a href="index.html" class="logo" aria-label="home page">
+                    <img src="assets/img/logo.png" alt="logo LAGaEC"/>
                 </a>
                 <nav class="navbar navbar-expand-lg navbar-light bg-verde-claro">
                     <div class="navbar-nav">
@@ -149,12 +148,13 @@
                         <a class="nav-item nav-link" href="#">Cookies</a>
                     </div>
                 </nav>
+
             </div>
             <div class="creditos">
-                <h6>Créditos</h6>
-                <p>© LAGaEC. Imágenes de las obras artísticas de dominio público,
-                    <a href="https://www.metmuseum.org/art/collection/search#!?searchField=All&showOnly=openAccess&sortBy=relevance&offset=0&pageSize=0">The Metropolitan Museum</a>.
-                    Fotografías, <a href="https://unsplash.com">Unsplash</a>
+                <h2 class="h6">Créditos</h2>
+                <p class="fs-1">© LAGaEC. Imágenes de las obras artísticas de dominio público,
+                    <a href="https://www.metmuseum.org/art/collection/search#!?searchField=All&showOnly=openAccess&sortBy=relevance&offset=0&pageSize=0" lang="en">The Metropolitan Museum</a>.
+                    Fotografías, <a href="https://unsplash.com" lang="en">Unsplash</a>
                     Actividad para comprobar la Accesibilidad Web, para el módulo de Diseño de Interfaces Web.
                     IES Rafael Alberti - 2022/2023</p>
             </div>
